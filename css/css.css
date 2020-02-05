@@ -27,6 +27,7 @@ section{
     grid-template-rows: auto, auto;
     grid-gap: 3vw;
     margin: 3vw;
+
     
 }
 article{
@@ -51,22 +52,24 @@ article{
     grid-column-end: 3;
 }
 footer{
+    display: flex;
+    align-items: center;
     background-color: rgb(236, 233, 216);
     height: 5vh;
-    
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 
 }
 footer img{
     height: 4vh;
     color: #70596f;
-    margin-top: 2vh;
-    margin-bottom: ;
+    margin-left: 1vw;
     
 }
 #planering{
-    float: right;
-    margin-top: 2vh;
-    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 1vw;
 }
 
 
