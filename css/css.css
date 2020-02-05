@@ -15,18 +15,58 @@ h1{
     vertical-align: middle;
 }
 nav{
+    
     background-color: rgb(236, 233, 216);
+    color: #70596f;
+    height: 5vh;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 60vw, 40vw;
+    grid-template-rows: auto, auto;
+    grid-gap: 3vw;
+    margin: 3vw;
     
 }
+article{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.img{
+    width: 40vw;
+}
+#img1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#img2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 footer{
-    
     background-color: rgb(236, 233, 216);
     height: 5vh;
+    
+
 }
 footer img{
     height: 4vh;
+    color: #70596f;
+    margin-top: 2vh;
+    margin-bottom: ;
     
-    
+}
+#planering{
+    float: right;
+    margin-top: 2vh;
+    margin-bottom: auto;
 }
 
 
