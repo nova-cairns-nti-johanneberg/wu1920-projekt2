@@ -5,7 +5,7 @@ body{
 header{
     background-image:url("../img/love lessons header.jpeg");
     background-size:cover;
-    height: 10vh;
+    height: 12vh;
     text-align: center;
     margin-top: 0;
     color: rgb(236, 233, 216);
@@ -21,37 +21,11 @@ nav{
     height: 5vh;
 
 }
-section{
-    display: grid;
-    grid-template-columns: 60vw, 40vw;
-    grid-template-rows: auto, auto;
-    grid-gap: 3vw;
-    margin: 3vw;
 
-    
-}
-article{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-}
 .img{
     width: 40vw;
 }
-#img1{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-#img2{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
+
 footer{
     display: flex;
     align-items: center;
@@ -71,6 +45,45 @@ footer img{
 #planering{
     margin-left: auto;
     margin-right: 1vw;
+}
+
+@media screen and (min-width: 500px){
+    section{
+        display: grid;
+        grid-template-columns: 60vw, 40vw;
+        grid-template-rows: auto, auto;
+        grid-gap: 3vw;
+        margin: 3vw;
+    }
+    article{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    
+    }
+    #img1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #img2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (min-width: 900px){
+    section{
+        grid-gap: 1vw;
+    
+    }
+    .img{
+        width: 30vw;
+    }
 }
 
 
