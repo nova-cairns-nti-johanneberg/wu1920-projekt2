@@ -9,13 +9,27 @@ header{
     text-align: center;
     margin-top: 0;
     color: rgb(236, 233, 216);
+    
 }
 h1{
     display: inline-block;
     vertical-align: middle;
+    margin-left: 50px;
+    font-size: 7vw;
+
 }
-nav{
-    display: flex;
+button{
+    height: 6vh;
+    background-color: inherit;
+    border: 0;
+    margin-left: -60px;
+}
+button img{
+    height: 6vh;
+    
+}
+#nav{
+    display: none;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -23,6 +37,19 @@ nav{
     color: #70596f;
     height: 5vh;
     font-size: 1em;
+}
+#upnav{
+    display: none;
+}
+#upnav.active{
+    display: grid;
+    grid-template-rows: 20vh, 20vh, 20vh, 20vh, 20vh;
+    grid-gap: 1vh;
+    background-color:rgb(236, 233, 216); 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 section{
@@ -60,6 +87,18 @@ footer img{
 }
 
 @media screen and (min-width: 500px){
+    button{
+        display: none;
+    }
+    #nav{
+        display: flex;
+    }
+    #upnav{
+        display: none;
+    }
+    h1{
+        margin-left:0;
+    }
     section{
         display: grid;
         grid-template-columns: 60vw, 40vw;
@@ -89,6 +128,18 @@ footer img{
 }
 
 @media screen and (min-width: 900px){
+    button{
+        display: none;
+    }
+    h1{
+        margin-left:0;
+    }
+    #nav{
+        display: flex;
+    }
+    #upnav{
+        display: none;
+    }
     section{
         grid-gap: 1vw;
     
