@@ -69,6 +69,9 @@ section{
 #img2{
     margin-bottom: 5vh;
 }
+video{
+    display: none;
+}
 
 footer{
     display: flex;
@@ -102,7 +105,7 @@ footer img{
     }
     #nav{
         display: flex;
-        font-size: 1.3vw;
+        font-size: 2.5vw;
     }
     #upnav{
         display: none;
@@ -150,6 +153,9 @@ footer img{
         grid-column-start: 2;
         grid-column-end: 3;
     }
+    video{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 900px){
@@ -162,6 +168,7 @@ footer img{
     }
     #nav{
         display: flex;
+        font-size: 1.2vw;
     }
     #upnav{
         display: none;
