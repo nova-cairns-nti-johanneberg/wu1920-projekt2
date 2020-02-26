@@ -55,12 +55,13 @@ button img{
     padding-bottom: 2vh;
 }
 
-#s1{
+section{
     margin: 3vw;
     font-family: 'Raleway', sans-serif;
 }
 #a2 img{
-    width: 100vw;
+    width: 94vw;
+    margin-top: 3vw;
 }
 .img{
     display: block;
@@ -74,6 +75,23 @@ button img{
 }
 video{
     display: none;
+}
+#d2{
+    background-image: url("../img/notepadklar.png");
+    margin: 5vw;
+    height: 30vh;
+    margin-bottom: 7vw;
+    
+}
+#d2 h3{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#d2 li{
+    margin-left: 15vw;
+    margin-top: 2vh;
+    
 }
 
 footer{
