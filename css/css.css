@@ -55,9 +55,12 @@ button img{
     padding-bottom: 2vh;
 }
 
-section{
+#s1{
     margin: 3vw;
     font-family: 'Raleway', sans-serif;
+}
+#a2 img{
+    width: 100vw;
 }
 .img{
     display: block;
@@ -115,24 +118,24 @@ footer img{
         margin-top: 3vh;
     
     }
-    section{
+    #s1{
         display: grid;
         grid-template-columns: 60vw, 40vw;
         grid-template-rows: auto, auto;
         grid-gap: 3vw;
     
     }
-    article{
+    #a1{
         grid-row-start: 1;
         grid-row-end: 3;
         grid-column-start: 1;
         grid-column-end: 2;  
     
     }
-    article h2{
+    #a1 h2{
         font-size: 1.7em;
     }
-    article p{
+    #a1 p{
         font-size: 1.4em;
     }
     .img{
@@ -173,14 +176,14 @@ footer img{
     #upnav{
         display: none;
     }
-    section{
+    #s1{
         display: grid;
         grid-template-columns: 50vw, 20vw, 20vw;
         grid-template-rows: 1fr;
         grid-gap: 1vw;
     
     }
-    article{
+    #a1{
         grid-column-start: 1;
         grid-column-end: 2;  
     
