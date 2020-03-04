@@ -58,11 +58,19 @@ button img{
 section{
     margin: 3vw;
     font-family: 'Raleway', sans-serif;
+    
+}
+#s3 h2{
+   text-align: center;
 }
 #s3 a img{
-    width: 90vw;
+    width: 94vw;
+    height: 20vh;
+    margin-bottom: 1vh;
 }
-
+#look{
+    margin-bottom: 3vw;
+}
 
 #a2 img{
     width: 94vw;
@@ -255,6 +263,71 @@ footer img{
     #a2 img{
         width: 50vw;
     }
+    #s3{
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-rows: 5vw, 19vw, 19vw, 19vw, 19vw;
+        grid-gap: 3vw;
+        margin: 3vw;
+    }
+    #s3 h2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    #s3 a img{
+        width: 27.3vw;
+        height: 18vw; 
+    }
+        #text{
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #arms{
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #how{
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #host{
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        #self{
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        #cel{
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        #blood{
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        #night{
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        #lost{
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        #these{
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        #waves{
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        #look{
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+
+
     .img{
         width: 20vw;
     }
