@@ -178,10 +178,11 @@ footer img{
     #d2{
         margin: 6vw;
     }
+    
     #s3{
         display: grid;
-        grid-template-columns: 1fr, 1fr;
-        grid-template-rows: 5vw, 1fr repeat(6);
+        grid-template-columns: 46vw, 46vw;
+        grid-template-rows: 5vw, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
         grid-gap: 2vw;
     }
     #s3 a img{
@@ -343,50 +344,74 @@ footer img{
         #text{
             grid-row-start: 2;
             grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
         }
         #arms{
             grid-row-start: 2;
             grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
         }
         #how{
             grid-row-start: 2;
             grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
         }
         #host{
             grid-row-start: 3;
             grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
         }
         #self{
             grid-row-start: 3;
             grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 3;
         }
         #cel{
             grid-row-start: 3;
             grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
         }
         #blood{
             grid-row-start: 4;
             grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
         }
         #night{
             grid-row-start: 4;
             grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 3;
         }
         #lost{
             grid-row-start: 4;
             grid-row-end: 5;
+            grid-column-start: 3;
+            grid-column-end: 4;
         }
         #these{
             grid-row-start: 5;
             grid-row-end: 6;
+            grid-column-start: 1;
+            grid-column-end: 2;
         }
         #waves{
             grid-row-start: 5;
             grid-row-end: 6;
+            grid-column-start: 2;
+            grid-column-end: 3;
         }
         #look{
             grid-row-start: 5;
             grid-row-end: 6;
+            grid-column-start: 3;
+            grid-column-end: 4;
         }
 
 
