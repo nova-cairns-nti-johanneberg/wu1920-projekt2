@@ -63,14 +63,78 @@ section{
 #s3 h2{
    text-align: center;
 }
-#s3 a img{
+#s3 a{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: -2vh;
+    margin-left: 20%;
+    background: white;
+    opacity: 80%;
+    height: 3vh;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 60%;
+    text-align: center;
+}
+#s3 div{
     width: 94vw;
     height: 20vh;
     margin-bottom: 1vh;
+    text-align: center;
+    position: relative;
+    
 }
-#look{
-    margin-bottom: 3vw;
-}
+    #text{
+        background-image: url("../img/texter bakgrund.jpg");
+        background-size: cover;
+    }
+    #arms{
+        background-image: url("../img/arms background.jpg");
+        background-size: cover;
+    }
+    #how{
+        background-image: url("../img/draw background.jpg");
+        background-size: cover;
+    }
+    #host{
+        background-image: url("../img/hostage background.jpg");
+        background-size: cover;
+    }
+    #self{
+        background-image: url("../img/selfocracy bakgrund.jpg");
+        background-size: cover;
+    }
+    #cel{
+        background-image: url("../img/celesta background.jpg");
+        background-size: cover;
+    }
+    #blood{
+        background-image: url("../img/bloodstream background.jpg");
+        background-size: cover;
+    }
+    #night{
+        background-image: url("../img/the night background.jpg");
+        background-size: cover;
+    }
+    #lost{
+        background-image: url("../img/lost it background.jpg");
+        background-size: cover;
+    }
+    #these{
+        background-image: url("../img/these thoughts background.jpg");
+        background-size: cover;}
+    #waves{
+        background-image: url("../img/waves background.jpg");
+        background-size: cover;
+    }
+    #look{
+        background-image: url("../img/when i look background.png");
+        background-size: cover;
+        margin-bottom: 4vh;
+    }
 
 #a2 img{
     width: 94vw;
@@ -185,12 +249,15 @@ footer img{
         grid-template-rows: 5vw, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
         grid-gap: 2vw;
     }
-    #s3 a img{
+    #s3 div{
         width: 46vw;
     }
     #s3 h2{
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+    #s3 a{
+        margin-top: -1.5vh;
     }
     #text{
         grid-column-start: 1;
@@ -337,7 +404,7 @@ footer img{
         grid-column-start: 1;
         grid-column-end: 4;
     }
-    #s3 a img{
+    #s3 div{
         width: 27.3vw;
         height: 18vw; 
     }
