@@ -172,6 +172,73 @@ footer img{
     #a1 p{
         font-size: 1.4em;
     }
+    video{
+        display: none;
+    }
+    #d2{
+        margin: 6vw;
+    }
+    #s3{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 5vw, 1fr repeat(6);
+        grid-gap: 2vw;
+    }
+    #s3 a img{
+        width: 46vw;
+    }
+    #s3 h2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #arms{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #how{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #host{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #self{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #cel{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #blood{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #night{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #lost{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #these{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #waves{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #look{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
     .img{
         margin-bottom: 0;
         width: 40vw;
@@ -190,12 +257,7 @@ footer img{
         grid-column-start: 2;
         grid-column-end: 3;
     }
-    video{
-        display: none;
-    }
-    #d2{
-        margin: 6vw;
-    }
+    
 }
 
 @media screen and (min-width: 900px){
