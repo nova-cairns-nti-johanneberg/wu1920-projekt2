@@ -213,6 +213,9 @@ footer img{
     }
     video{
         display: block;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
     }
     #s2{
         display: grid;
