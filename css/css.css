@@ -164,7 +164,6 @@ section{
     margin-right: 4vw;
     display: grid;
    grid-template-columns: 50% 50%;
-   grid-template-rows: auto repeat(17);
    text-align: center;
    
 }
@@ -643,7 +642,151 @@ footer img{
             grid-column-start: 3;
             grid-column-end: 4;
         }
+    #s4{
+        width: 98vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        text-align: center;
+     }
+    #s4 a img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    #s4 h2{
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+     }
+         #A{
+            grid-column: 1;
+            grid-row: 2;
+            margin-right: 2vw;
+            margin-top: 1vw;
+            margin-bottom:2vw;
+            
+            }
+        #B{   grid-column: 3;
+            grid-row: 2;
+            margin-left: 2vw;
 
+            margin-top: 1vw;
+            margin-bottom: 2vw;
+            }
+        #C{   grid-column: 2;
+            grid-row: 2;
+            margin-right: 0;
+            margin-top: 1vw;
+            margin-bottom: 2vw;
+            }
+        #D{   grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            margin-right: 0;
+            margin-bottom:2vw;
+            margin-top: 0;
+            }
+        #E{   grid-column: 4;
+            grid-row: 2;
+            margin-left: 2vw;
+            margin-top: 1vw;
+            margin-bottom: 2vw;
+            height: 40vh;
+        
+            }
+        #F{   grid-column: 4;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            margin-right:0;
+            margin-top:0 ;
+            margin-bottom: 2vw;
+            }
+        #G{   grid-column: 3;
+            grid-row-start: 3;
+            grid-row-end:5;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-top:0 ;
+            margin-bottom: 2vw;
+        }
+        #H{   grid-column: 1;
+                grid-row-start: 5;
+                grid-row-end: 7;
+                margin-right: ;
+        }
+        #I{   grid-column: 2;
+            grid-row: 5;
+            margin-left: 0;
+        }
+        #J{   grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            grid-row-end: 8;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 2vw;
+            height: 100%;
+        }
+        #K{ grid-column: 2;
+            grid-row: 6; 
+            margin-top:; 
+            margin-bottom: 0;
+        }
+        #L{   grid-column: 2;
+            grid-row: 7;
+            margin-left: 6vw;
+            margin-right: 0;
+            margin-top: 2vw;
+            margin-bottom: 0;
+            height: 52vh;
+    
+        }
+        #M{   grid-column:1;
+            grid-row: 7;
+            margin-top: 2vw;
+            margin-bottom: 0;
+            margin-right: -4vw;
+            height: 52vh;
+            
+        }
+        #N{   grid-column: 4;
+            grid-row: 8;
+            margin-bottom: 0;
+            margin-left: 2vw;
+            margin-top: 2vw;
+        }
+        #O{   grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 8;
+            margin-right: 4vw;
+            margin-top: 2vw;
+        }
+        #P{   grid-column: 3;
+            grid-row: 8;
+            margin-left: -2vw;
+            margin-top: 2vw;
+            width: 110%
+        }
+        #Q{   grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 10;
+            grid-row-end: 12;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            margin-left: -6vw;
+        }
+        #R{   grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 10;
+            grid-row-end: 12;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            margin-right: 8vw;
+        }
+        
 
     .img{
         width: 20vw;
