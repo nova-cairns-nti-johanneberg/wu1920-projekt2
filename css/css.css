@@ -670,14 +670,14 @@ footer img{
             }
         #B{   grid-column: 3;
             grid-row: 2;
-            margin-left: 2vw;
-
+            margin-left: 6vw;
+            margin-right: -2vw;
             margin-top: 1vw;
             margin-bottom: 2vw;
             }
         #C{   grid-column: 2;
             grid-row: 2;
-            margin-right: 0;
+            margin-right: -4vw;
             margin-top: 1vw;
             margin-bottom: 2vw;
             }
@@ -691,7 +691,7 @@ footer img{
             }
         #E{   grid-column: 4;
             grid-row: 2;
-            margin-left: 2vw;
+            margin-left: 4vw;
             margin-top: 1vw;
             margin-bottom: 2vw;
             height: 40vh;
@@ -715,7 +715,6 @@ footer img{
         #H{   grid-column: 1;
                 grid-row-start: 5;
                 grid-row-end: 7;
-                margin-right: ;
         }
         #I{   grid-column: 2;
             grid-row: 5;
@@ -729,15 +728,15 @@ footer img{
             margin-bottom: 0;
             margin-left: 2vw;
             height: 100%;
+            
         }
         #K{ grid-column: 2;
-            grid-row: 6; 
-            margin-top:; 
+            grid-row: 6;  
             margin-bottom: 0;
         }
         #L{   grid-column: 2;
             grid-row: 7;
-            margin-left: 6vw;
+            margin-left: 10vw;
             margin-right: 0;
             margin-top: 2vw;
             margin-bottom: 0;
@@ -748,7 +747,7 @@ footer img{
             grid-row: 7;
             margin-top: 2vw;
             margin-bottom: 0;
-            margin-right: -4vw;
+            margin-right: -8vw;
             height: 52vh;
             
         }
@@ -761,7 +760,7 @@ footer img{
         #O{   grid-column-start: 1;
             grid-column-end: 3;
             grid-row: 8;
-            margin-right: 4vw;
+            margin-right: 6vw;
             margin-top: 2vw;
         }
         #P{   grid-column: 3;
@@ -776,7 +775,7 @@ footer img{
             grid-row-end: 12;
             margin-top: 2vw;
             margin-bottom: 2vw;
-            margin-left: -6vw;
+            margin-left: -8vw;
         }
         #R{   grid-column-start: 1;
             grid-column-end: 3;
