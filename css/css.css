@@ -340,21 +340,22 @@ video{
 #atext{
     font-size: 3vh;
     font-family: 'Raleway', sans-serif;
-    height: 65vh;
+    height: 68vh;
 }
 #dtext{
     font-family: 'Raleway', sans-serif;
-    font-size: 4vh; 
-    height: 5vh;
+    font-size: 3vh; 
+    height: 3vh;
     padding-bottom: 8vh;
 }
 #dtext a{
-    margin-bottom: 10px;
     color: black;
+    
 }
 #dtext a img{
-    height: 5vh;
+    height: 4vh;
 }
+
 
 
 footer{
