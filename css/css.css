@@ -12,28 +12,6 @@ header{
    
     
 }
-#htext{
-    background-image: url("../img/texter bakgrund.jpg");
-    text-align: center;
-    position: relative;
-    height: 20vh;
-}
-#htext h1{
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-    margin-top: -2vh;
-    margin-left: 30%;
-    background: white;
-    opacity: 80%;
-    height: 3vh;
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 40%;
-    text-align: center; 
-}
 
 h1{
     display: inline-block;
@@ -334,25 +312,73 @@ video{
     margin-top: 2vh;
     
 }
+.head2{
+    text-align: center;
+    position: relative;
+    height: 20vh;
+}
+#htext{
+    background-image: url("../img/texter bakgrund.jpg"); 
+}
+#harms{
+    background-image: url("../img/arms background2.jpg");    
+}
+#hhow{background-image: url("../img/draw background.jpg");}
+#hhost{background-image: url("../img/hostage background.jpg");}
+#hsel{background-image: url("../img/selfocracy bakgrund.jpg");}
+#hcel{background-image: url("../img/celesta background.jpg");}
+#hblo{background-image: url("../img/bloodstream background.jpg");}
+#hthe{background-image: url("../img/the night background.jpg");}
+#hlost{background-image: url("../img/lost it background.jpg");}
+#htho{background-image: url("../img/these thoughts background.jpg");}
+#hwav{background-image: url("../img/waves background.jpg");}
+#hwhe{background-image: url("../img/when i look background.png");}
+
+.head2 h1{
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    margin-top: -2vh;
+    margin-left: 30%;
+    background: white;
+    opacity: 80%;
+    height: auto;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40%;
+    text-align: center; 
+}
 .text{
     background-color: #70596f;
+    width: 100vw;
 }
-#atext{
+.anum{
     font-size: 3vh;
     font-family: 'Raleway', sans-serif;
-    height: 68vh;
+    height: fill;
+    padding-top: 2vh;
+    margin-bottom: 0;
+    padding-bottom: 1vh;
 }
-#dtext{
+.anum img{
+    width: 100%;
+}
+.nfoot{
     font-family: 'Raleway', sans-serif;
-    font-size: 3vh; 
+    font-size: 3vh;
     height: 3vh;
     padding-bottom: 8vh;
+    position: fixed;
+    bottom: 0;
+
 }
-#dtext a{
+.nfoot a{
     color: black;
     
 }
-#dtext a img{
+.nfoot a img{
     height: 4vh;
 }
 
@@ -536,7 +562,12 @@ footer img{
         #iJ{ grid-row: 14;}
         .tJ{ grid-row: 14;
         grid-column: 2;}
-        
+
+    .anum img{
+        height: 40vh;
+        width: auto;
+        float: right;
+    }  
     .img{
     margin-bottom: 0;
     width: 40vw;
