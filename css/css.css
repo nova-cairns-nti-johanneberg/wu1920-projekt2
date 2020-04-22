@@ -12,7 +12,6 @@ header{
    
     
 }
-
 h1{
     display: inline-block;
     vertical-align: middle;
@@ -427,6 +426,7 @@ footer img{
     #hemsection{
         display: grid;
         grid-template-rows: auto auto;
+        grid-template-columns: 54vw 37vw;
         grid-gap: 3vw;
     
     }
@@ -442,6 +442,24 @@ footer img{
     }
     #allmänfakta p{
         font-size: 1.4em;
+    }
+    .img{
+        margin-bottom: 0;
+        width: 37vw;
+        margin-top: 0;
+    }
+    #img1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-top: 2vh;
+    }
+    #img2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
     video{
         display: none;
@@ -560,24 +578,6 @@ footer img{
         width: auto;
         float: right;
     }  
-    .img{
-    margin-bottom: 0;
-    width: 40vw;
-    margin-top: 0;
-    }
-    #img1{
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        margin-top: 2vh;
-    }
-    #img2{
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
    
         
     
@@ -601,6 +601,7 @@ footer img{
     #hemsection{
         display: grid;
         grid-template-rows: 1fr 1fr;
+        grid-template-columns: 44vw 23.8vw 23.8vw;
         grid-gap: 1.2vw;
     
     }
@@ -611,10 +612,11 @@ footer img{
     
     }
     #allmänfakta p{
-        font-size: 1.2vw;
+        font-size: 1.2em;
     }
     .img{
-        width: 20vw;
+        width: 23.8vw;
+        object-fit: cover;
     }
     #img1{
         grid-column-start: 2;
@@ -635,10 +637,11 @@ footer img{
         grid-column-end: 4;
         grid-row-start: 2;
         margin-top: 0;
+        width: 48.8vw;
         
     }
     section{
-        font-size: 1.2vw;
+        font-size: 1.2em;
     }
     #forestallningen_section{
         display: grid;
