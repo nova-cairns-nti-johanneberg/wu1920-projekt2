@@ -29,25 +29,197 @@
     </nav>
     <section id="bilder_section">
         <h2>Galleri</h2>
-        <div id="A"><img class="galleryimg" src="img/arms_start.JPG" alt=""></div>
-        <div id="B" ><img class="galleryimg" src="img/lostit_upp.JPG" alt=""></div>
-        <div id="C"><img class="galleryimg" src="img/bloodstream.PNG" alt=""></div>
-        <div id="D"><img class="galleryimg" src="img/buga.JPG" alt=""></div>
-        <div id="E"><img class="galleryimg" src="img/cel_ut.JPG" alt=""></div>
-        <div id="F" ><img class="galleryimg" src="img/hopp.JPG" alt=""></div>
-        <div id="G" ><img class="galleryimg" src="img/lostit_ut.JPG" alt=""></div>
-        <div id="H" ><img class="galleryimg" src="img/celesta.JPG" alt=""></div>
-        <div id="I" ><img class="galleryimg" src="img/waves.PNG" alt=""></div>
-        <div id="J" ><img class="galleryimg" src="img/lost_it.JPG" alt=""></div>
-        <div id="K" ><img class="galleryimg" src="img/these_kano.JPG" alt=""></div>
-        <div id="L" ><img class="galleryimg" src="img/sträck.PNG" alt=""></div>
-        <div id="M" ><img class="galleryimg" src="img/when_i_hopp.PNG" alt=""></div>
-        <div id="N" ><img class="galleryimg" src="img/when_ihop.JPG" alt=""></div>
-        <div id="O" ><img class="galleryimg" src="img/waves_hinge.PNG" alt=""></div>
-        <div id="P" ><img class="galleryimg" src="img/when_i_look.JPG" alt=""></div>
-        <div id="Q" ><img class="galleryimg" src="img/waves_ut.PNG" alt=""></div>
-        <div id="R" ><img class="galleryimg" src="img/these_thoughts.JPG" alt=""></div>
+        <div id="A"><img class="galleryimg" src="img/arms_start.JPG" onclick="openModal();currentSlide(1)" alt=""></div>
+        <div id="B" ><img class="galleryimg" src="img/lostit_upp.JPG" onclick="openModal();currentSlide(2)" alt=""></div>
+        <div id="C"><img class="galleryimg" src="img/bloodstream.PNG" onclick="openModal();currentSlide(3)" alt=""></div>
+        <div id="D"><img class="galleryimg" src="img/buga.JPG" onclick="openModal();currentSlide(4)" alt=""></div>
+        <div id="E"><img class="galleryimg" src="img/cel_ut.JPG" onclick="openModal();currentSlide(5)" alt=""></div>
+        <div id="F" ><img class="galleryimg" src="img/hopp.JPG" onclick="openModal();currentSlide(6)" alt=""></div>
+        <div id="G" ><img class="galleryimg" src="img/lostit_ut.JPG" onclick="openModal();currentSlide(7)" alt=""></div>
+        <div id="H" ><img class="galleryimg" src="img/celesta.JPG" onclick="openModal();currentSlide(8)" alt=""></div>
+        <div id="I" ><img class="galleryimg" src="img/waves.PNG" onclick="openModal();currentSlide(9)" alt=""></div>
+        <div id="J" ><img class="galleryimg" src="img/lost_it.JPG" onclick="openModal();currentSlide(10)" alt=""></div>
+        <div id="K" ><img class="galleryimg" src="img/these_kano.JPG" onclick="openModal();currentSlide(11)" alt=""></div>
+        <div id="L" ><img class="galleryimg" src="img/sträck.PNG" onclick="openModal();currentSlide(12)" alt=""></div>
+        <div id="M" ><img class="galleryimg" src="img/when_i_hopp.PNG" onclick="openModal();currentSlide(13)" alt=""></div>
+        <div id="N" ><img class="galleryimg" src="img/when_ihop.JPG" onclick="openModal();currentSlide(14)" alt=""></div>
+        <div id="O" ><img class="galleryimg" src="img/waves_hinge.PNG" onclick="openModal();currentSlide(15)" alt=""></div>
+        <div id="P" ><img class="galleryimg" src="img/when_i_look.JPG" onclick="openModal();currentSlide(16)" alt=""></div>
+        <div id="Q" ><img class="galleryimg" src="img/waves_ut.PNG" onclick="openModal();currentSlide(17)" alt=""></div>
+        <div id="R" ><img class="galleryimg" src="img/these_thoughts.JPG" onclick="openModal();currentSlide(18)" alt=""></div>
         
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 18</div>
+                <img src="img/arms_start.JPG" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 18</div>
+                <img src="img/lostit_upp.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 18</div>
+                <img src="img/bloodstream.PNG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 18</div>
+                <img src="img/buga.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 18</div>
+                <img src="img/cel_ut.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 18</div>
+                <img src="img/hopp.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">7 / 18</div>
+                <img src="img/lostit_ut.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">8 / 18</div>
+                <img src="img/celesta.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">9 / 18</div>
+                <img src="img/waves.PNG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">10 / 18</div>
+                <img src="img/lost_it.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">11 / 18</div>
+                <img src="img/these_kano.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">12 / 18</div>
+                <img src="img/sträck.PNG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">13 / 18</div>
+                <img src="img/when_i_hopp.PNG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">14 / 18</div>
+                <img src="img/when_ihop.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">15 / 18</div>
+                <img src="img/waves_hinge.PNG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">16 / 18</div>
+                <img src="img/when_i_look.JPG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">17 / 18</div>
+                <img src="img/waves_ut.PNG" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">18 / 18</div>
+                <img src="img/these_thoughts.JPG" style="width:100%">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+              <!--<div class="column">
+                <img class="demo" src="img1.jpg" onclick="currentSlide(1)">
+              </div>
+          
+              <div class="column">
+                <img class="demo" src="img2.jpg" onclick="currentSlide(2)">
+              </div>
+          
+              <div class="column">
+                <img class="demo" src="img/bloodstream.PNG" onclick="currentSlide(3)">
+              </div>
+          
+              <div class="column">
+                <img class="demo" src="img/buga.JPG" onclick="currentSlide(4)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/cel_ut.JPG" onclick="currentSlide(5)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/hopp.JPG" onclick="currentSlide(6)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/lostit_ut.JPG" onclick="currentSlide(7)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/celesta.JPG" onclick="currentSlide(8)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/waves.PNG" onclick="currentSlide(9)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/lost_it.JPG" onclick="currentSlide(10)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/these_kano.JPG" onclick="currentSlide(11)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/sträck.PNG" onclick="currentSlide(12)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/when_i_hopp.PNG" onclick="currentSlide(13)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/when_ihop.JPG" onclick="currentSlide(14)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/waves_hinge.PNG" onclick="currentSlide(15)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/when_i_look.JPG" onclick="currentSlide(16)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/waves_ut.PNG" onclick="currentSlide(17)">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="img/these_thoughts.JPG" onclick="currentSlide(18)">
+              </div>-->
+
+            </div>
+        </div>
+          
         
     </section>
     <footer>
