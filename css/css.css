@@ -145,6 +145,10 @@ section{
 }
 .galleryimg{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+    
 }
 #bilder_section h2{
     grid-row: 1;
@@ -157,12 +161,15 @@ section{
         margin-right: 1vw;
         margin-bottom: 2vw;
     }
-    #B{   grid-column: 2;
+    #B{   
+        grid-column: 2;
         grid-row: 2;
         margin-left: 3vw;
         margin-bottom: 2vw;
+        
     }
-    #C{   grid-column-start: 1;
+    #C{   
+        grid-column-start: 1;
         grid-column-end: 3;
         grid-row: 3;
         margin-top: 2vw;
@@ -256,7 +263,7 @@ section{
         display: none;
         position: fixed;
         z-index: 1;
-        padding-top: 100px;
+        padding-top: 30vh;
         left: 0;
         top: 0;
         width: 100%;
@@ -266,11 +273,11 @@ section{
     }
     .modal-content {
         position: relative;
-        background-color: #fefefe;
+        background-color: black;
         margin: auto;
         padding: 0;
-        width: 60%;
-        max-width: 1200px;
+        width: 100%;
+        max-height: 100vh;
     }
     .close {
         color: white;
@@ -322,10 +329,6 @@ section{
         position: absolute;
         top: 0;
     }
-    img.demo {
-        opacity: 0.6;
-    }
-    
     .active,
     .demo:hover {
         opacity: 1;
@@ -987,7 +990,13 @@ footer img{
             margin-bottom: 0;
             margin-right: 8vw;
         }
-        
+        .modal {
+            padding-top: 2vh;
+        }
+        .modal-content {
+            width: 60%;
+            
+        }
     
     #personer_section{
         grid-template-columns: 20% 80%;
