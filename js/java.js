@@ -1,5 +1,6 @@
-document.getElementById('meny').addEventListener('click', function () {
-    toggleClass(document.getElementById('upnav'), "active")
+
+document.querySelector('#meny').addEventListener('click', function () {
+  document.querySelector('#upnav').classList.toggle('active');
 });
 
 function toggleClass(element, className) {
@@ -12,7 +13,6 @@ function toggleClass(element, className) {
     element.className = classString;
 }
 
-
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
@@ -22,7 +22,7 @@ function closeModal() {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+  showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
