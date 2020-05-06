@@ -8,9 +8,7 @@ header{
     height: 12vh;
     text-align: center;
     margin-top: 0;
-    color: rgb(236, 233, 216);
-   
-    
+    color: rgb(236, 233, 216); 
 }
 h1{
     display: inline-block;
@@ -58,6 +56,9 @@ section{
     margin: 3vw;
     font-family: 'Raleway', sans-serif;
     
+}
+#nummer_section{
+    margin-bottom: 7vh;
 }
 #nummer_section h2{
    text-align: center;
@@ -132,7 +133,6 @@ section{
     #look{
         background-image: url("../img/when i look background.png");
         background-size: cover;
-        margin-bottom: 4vh;
     }
 #bilder_section{
     width: 92vw;
@@ -141,6 +141,7 @@ section{
     display: grid;
    grid-template-columns: 50% 50%;
    text-align: center;
+   margin-bottom: 7vh;
    
 }
 .galleryimg{
@@ -365,7 +366,7 @@ section{
     margin-top: 5vh;
 }
 #img2{
-    margin-bottom: 5vh;
+    margin-bottom: 7vh;
 }
 video{
     display: none;
@@ -376,6 +377,7 @@ video{
     margin: 4vw;
     height: 30vh;
     margin-bottom: 7vw;
+    padding-bottom: 5vh;
     font-family: 'Indie Flower', cursive;
 }
 #lista h3{
@@ -711,6 +713,7 @@ footer img{
         grid-column-end: 4;
         margin-top: 3.36em;
         margin-right: 0;
+        margin-bottom: 5vh;
     }
     video{
         display: block;
@@ -746,6 +749,7 @@ footer img{
         width: 40vw;
         height: auto; 
         font-size: 1.5vw;
+        padding-bottom: 0;
     }
     #lista li{
         margin-left: 10vw;
@@ -838,6 +842,7 @@ footer img{
             grid-row-end: 6;
             grid-column-start: 3;
             grid-column-end: 4;
+            margin-bottom: 4vh;
         }
     #bilder_section{
         width: 96vw;
@@ -845,6 +850,7 @@ footer img{
         margin-right: 2vw;
         display: grid;
         grid-template-columns: auto auto auto auto;
+        margin-bottom: 3vw;
      }
     .galleryimg{
         width: 100%;
